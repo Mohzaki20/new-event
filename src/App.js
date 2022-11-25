@@ -1,7 +1,7 @@
 import React from 'react';
 import CreativeSpeaker from './design-system/components/CreativeSpeakers/CreativeSpeakers';
 import SpeakersData from './design-system/components/CreativeSpeakers/SpeakersData';
-
+import "./design-system/main.css"
 
 function App() {
   return (
