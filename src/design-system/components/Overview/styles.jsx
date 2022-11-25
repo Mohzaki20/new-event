@@ -9,7 +9,7 @@ export const Title = styled("h2") `
     label : Title;
     color: #d4d4d4;
 `
-export const Describtion = styled("p") `
-    label : Describtion;
+export const Description = styled("p") `
+    label : Description;
     color: #707070;
 `
