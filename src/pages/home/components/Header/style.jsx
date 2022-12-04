@@ -35,6 +35,8 @@ export const LearnBtn = styled("button") `
     margin: 1rem;
     cursor: pointer;
     transition: all 0.3s;
+    font-weight: bold;
+    letter-spacing: 1px;
     border-radius: 4px;
     :hover {
         color: ${theme.secondary};
@@ -49,6 +51,7 @@ export const RegisterBtn = styled("button") `
     font-size: 1.2rem;
     padding: 1rem 3rem;
     margin: 1rem;
+    letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.3s;
     border-radius: 4px;
