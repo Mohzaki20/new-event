@@ -8,7 +8,8 @@ export const NavbarWrapper = styled("div") `
     background-color: ${theme.secondary};
     padding: 1.5rem 0;
     color: ${theme.white};
-
+    position: fixed;
+    width: 100%;
 `
 export const NavContainer = styled("div") `
     label : NavContainer;
