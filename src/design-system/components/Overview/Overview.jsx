@@ -2,11 +2,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import { OverviewWrapper, Title, Description } from './styles';
 
-function Overview({icon,title,Desc}) {
+function OverviewComponent({icon,title,Desc}) {
   return (
     <OverviewWrapper>
       <div>
-      <FontAwesomeIcon color='#f2545f' size='2xl' icon={icon} />
+      <FontAwesomeIcon color='#f2545f' size='3x' icon={icon} />
       </div>
       <Title>{title}</Title>
       <Description>{Desc}</Description>
@@ -14,4 +14,4 @@ function Overview({icon,title,Desc}) {
   )
 }
 
-export default Overview;
+export default OverviewComponent;
