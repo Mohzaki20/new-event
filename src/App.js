@@ -1,26 +1,15 @@
 import React from "react";
-import ourProgramData from "./design-system/components/OurPrograms/OurProgramData";
-import OurPrograms from "./design-system/components/OurPrograms/OurPrograms";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./design-system/main.css";
+import Home from "./pages/home";
 
 function App() {
   return (
-    <div className="App">
-      {ourProgramData.map((item) => {
-        return (
-        <OurPrograms
-          img={item.img}
-          name={item.name}
-          key={item.id}
-          title={item.title}
-          time={item.time}
-          alt={item.alt}
-          description={item.description}
-          room={item.room}
-        />)
-        ;
-      })}
-    </div>
+      <BrowserRouter>
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+      </Routes>
+      </BrowserRouter>
   );
 }
 

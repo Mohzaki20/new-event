@@ -16,7 +16,7 @@ export default function OurPrograms({img,time,room,title,name,description,alt}) 
                         <FontAwesomeIcon size="xs" icon={faClock} /> {time}
                     </div>
                     <div>
-                        <FontAwesomeIcon size="xs" icon={faMapMarker} />Room {room}
+                        <FontAwesomeIcon size="xs" icon={faMapMarker} /><span> Room</span> {room}
                     </div>
                 </IconWrapper>
                 <h2>{title}</h2>
