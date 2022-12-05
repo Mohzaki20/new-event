@@ -5,7 +5,7 @@ import theme from "../../../../design-system/config";
 
 export const NavbarWrapper = styled("div") `
     label : NavbarWrapper;
-    background-color: ${theme.secondary};
+    background-color: ${theme.black};
     padding: 1.5rem 0;
     color: ${theme.white};
     position: fixed;
