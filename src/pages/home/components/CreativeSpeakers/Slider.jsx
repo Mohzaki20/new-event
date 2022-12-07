@@ -1,9 +1,10 @@
 import { Autoplay } from "swiper";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SpeakersData from "./../../../../design-system/components/CreativeSpeakers/SpeakersData";
 import CreativeSpeakers from "../../../../design-system/components/CreativeSpeakers/CreativeSpeakers";
+import SpeakersData from "./../../../../design-system/components/CreativeSpeakers/SpeakersData";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
     return (
         <Swiper
