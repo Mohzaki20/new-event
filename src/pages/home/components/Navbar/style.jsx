@@ -9,6 +9,7 @@ export const NavbarWrapper = styled("div") `
     padding: 1.5rem 0;
     color: ${theme.white};
     position: fixed;
+    z-index: 100;
     width: 100%;
 `
 export const NavContainer = styled("div") `

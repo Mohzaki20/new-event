@@ -1,9 +1,8 @@
 import styled from "@emotion/styled";
-import theme from "../../../../design-system/config";
+import theme from "../../../../../design-system/config";
 
-export const SpeakersWrapper = styled("section") `
-    label : SpeakersWrapper;
-    background-color: ${theme.whiteSmoke};
+export const AccordionWrap = styled("section") `
+    label : AccordionWrapper;
     padding: 3rem 0;
     text-align: center;
 `
@@ -22,11 +21,7 @@ export const Description = styled("p") `
     label : Description;
     color: ${theme.gray};
     padding-top: .5rem;
-
 `
-export const SliderWrapper = styled("p") `
-    label : SliderWrapper;
-    padding: 2rem 0;
-
+export const Wrapper = styled("p") `
+    label : Wrapper;
 `
-

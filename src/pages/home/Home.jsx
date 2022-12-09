@@ -5,6 +5,9 @@ import Overview from "./components/Overview/Overview";
 import Watch from "../../design-system/components/Watch/Watch";
 import CreativeSpeakers from "./components/CreativeSpeakers/CreativeSpeakers";
 import OurPrograms from "./components/OurPrograms/OurPrograms";
+import Register from "./components/Register/Register";
+import AccordionComponent from "./components/Accordion/AccordionComponent/AccordionComponent";
+
 
 
 function home() {
@@ -17,6 +20,8 @@ function home() {
             <Watch/>
             <CreativeSpeakers/>
             <OurPrograms/>
+            <Register/>
+            <AccordionComponent/>
         </div>
     )
 }

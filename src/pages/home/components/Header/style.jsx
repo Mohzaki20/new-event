@@ -6,13 +6,12 @@ import header from "../../../../design-system/shared/assets/header/header.jpg";
 
 export const HeaderWrapper = styled("section") `
     label : HeaderWrapper;
-    height: 100vh;
-    background: url(${header});
+    height: 70vh;
+    background: url(${header}) fixed;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20% 0;
     text-align: center;
-
 `
 
 export const H3 = styled("h3") `
