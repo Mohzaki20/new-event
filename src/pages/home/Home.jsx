@@ -7,6 +7,9 @@ import CreativeSpeakers from "./components/CreativeSpeakers/CreativeSpeakers";
 import OurPrograms from "./components/OurPrograms/OurPrograms";
 import Register from "./components/Register/Register";
 import AccordionComponent from "./components/Accordion/AccordionComponent/AccordionComponent";
+import Venue from "./components/Venue/Venue";
+import Sponsors from "./components/Sponsors/Sponsors";
+import Contact from "./components/Contact/Contact";
 
 
 
@@ -22,6 +25,9 @@ function home() {
             <OurPrograms/>
             <Register/>
             <AccordionComponent/>
+            <Venue/>
+            <Sponsors/>
+            <Contact/>
         </div>
     )
 }

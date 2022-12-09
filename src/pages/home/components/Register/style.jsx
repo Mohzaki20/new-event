@@ -74,7 +74,6 @@ export const RegisterBtn = styled("button") `
     transition: all 0.3s;
     border-radius: 50px;
     :hover {
-        color: ${theme.secondary};
         background-color: transparent;
         color: ${theme.white};
         border: 2px solid ${theme.white};
