@@ -26,9 +26,9 @@ export const Title = styled("h1") `
 `
 export const LearnBtn = styled("button") `
     label : LearnBtn;
-    color: ${theme.white};
+    color: ${theme.black};
     border: 2px solid ${theme.white};
-    background-color: transparent;
+    background-color: ${theme.white};
     font-size: 1.2rem;
     padding: 1rem 3rem;
     margin: 1rem;
@@ -38,8 +38,8 @@ export const LearnBtn = styled("button") `
     letter-spacing: 1px;
     border-radius: 4px;
     :hover {
-        color: ${theme.secondary};
-        background-color: ${theme.white};
+        color: ${theme.white};
+        background-color: transparent;
     }
 `
 export const RegisterBtn = styled("button") `

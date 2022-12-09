@@ -9,6 +9,7 @@ export const OverviewWrapper = styled("div") `
 export const Title = styled("h2") `
     label : Title;
     color: #d4d4d4;
+    text-transform: capitalize;
 `
 export const Description = styled("p") `
     label : Description;
