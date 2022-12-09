@@ -1,10 +1,12 @@
 import React from 'react'
 import { Description, Div, H1, P, VenueWrapper } from './style';
+import { Fade } from 'react-reveal';
 
 export default function Venue() {
     return (
         <VenueWrapper>
             <div className='container'>
+                <Fade left>
             <H1>Venue</H1>
             <Description>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam libero
@@ -17,6 +19,7 @@ export default function Venue() {
                     <Div>san francisco,CA 10110</Div>
                     <Div>tel:011-248-795</Div>
                 </P>
+            </Fade>
             </div>
         </VenueWrapper>
     )

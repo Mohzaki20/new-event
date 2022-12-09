@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal";
 import OurSponsor from "../../../../design-system/components/OurSponsors/ourSponsors";
 import sponsorData from "../../../../design-system/components/OurSponsors/sponsorsData";
 import { Description, Div, ImgsComponent, Span, SponsorWrapper } from "./style";
@@ -14,6 +15,7 @@ export default function Sponsors() {
                     Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet.
                     adipisicing elit. Commodi, aliquam!
                 </Description>
+                <Fade right>
                 <ImgsComponent>
                     {
                         sponsorData.map(item => {
@@ -22,6 +24,7 @@ export default function Sponsors() {
                         )})
                     }
                 </ImgsComponent>
+                </Fade>
             </div>
         </SponsorWrapper>
     );

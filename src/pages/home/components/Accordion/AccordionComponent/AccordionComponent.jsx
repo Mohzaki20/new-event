@@ -1,11 +1,13 @@
 import React from "react";
 import { AccordionWrap, Description, Div, Span } from "./style";
 import Accordion from './../Accordion';
+import { Fade } from "react-reveal";
 
 export default function AccordionComponent() {
     return (
         <AccordionWrap>
         <div className="container">
+        <Fade>
             <Div>
                 Do You Have <Span>Question</Span> ?
             </Div>
@@ -14,6 +16,7 @@ export default function AccordionComponent() {
                 aliquam!
             </Description>
             <Accordion/>
+        </Fade>
         </div>
         </AccordionWrap>
     );
